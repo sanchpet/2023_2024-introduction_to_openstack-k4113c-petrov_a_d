@@ -155,15 +155,19 @@ export OS_IDENTITY_API_VERSION=3
 tcp   LISTEN 0      511                *:80               *:*    users:(("httpd",pid=47910,fd=9),("httpd",pid=47909,fd=9),("httpd",pid=47908,fd=9),("httpd",pid=47871,fd=9),("httpd",pid=46394,fd=9),("httpd",pid=46393,fd=9),("httpd",pid=46392,fd=9),("httpd",pid=46391,fd=9),("httpd",pid=46390,fd=9),("httpd",pid=46389,fd=9),("httpd",pid=46388,fd=9),("httpd",pid=46387,fd=9),("httpd",pid=46380,fd=9))
 ```
 После авторизации попадаем на главную страницу OpenStack.
+
 ![img1](https://github.com/sanchpet/2023_2024-introduction_to_openstack-k4113c-petrov_a_d/blob/main/lab1/img/Pasted%20image%2020240221175854.png)
 
 Создадим новый проект.
+
 ![img2](https://github.com/sanchpet/2023_2024-introduction_to_openstack-k4113c-petrov_a_d/blob/main/lab1/img/Pasted%20image%2020240221175903.png)
 
 И добавим пользователя в проект с ролью «\_member\_».
+
 ![img3](https://github.com/sanchpet/2023_2024-introduction_to_openstack-k4113c-petrov_a_d/blob/main/lab1/img/Pasted%20image%2020240221175908.png)
 
 Авторизуемся под новым пользователем `sanchpet` и убедимся, что ему доступен только один проект, на который мы его добавили.
+
 ![img4](https://github.com/sanchpet/2023_2024-introduction_to_openstack-k4113c-petrov_a_d/blob/main/lab1/img/Pasted%20image%2020240221175915.png)
 ### Заключение
 В ходе работы было выполнено создание виртуальной машины, произведена установка OpenStack на виртуальную машину, проверена работоспособность OpenStack. В ходе работы получено представление об эндпоинтах, пользователях и проектах OpenStack, изучены возможности OpenStack CLI, произведен вход в OpenStack при помощи Horizon. Полученные результаты в дальнейшем могут быть использованы для настройки локальных лабораторных окружений для проведения работ в OpenStack. Задачи работы выполнены, цель достигнута.
